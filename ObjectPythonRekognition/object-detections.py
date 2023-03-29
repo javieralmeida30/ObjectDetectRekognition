@@ -18,7 +18,7 @@ with open('credentials.csv', 'r') as file:
 client = boto3.client('rekognition',
                       aws_access_key_id=access_key_ID,
                       aws_secret_access_key=secret_access_key,
-                      region_name='us-west-2')
+                      region_name='aws-region-number')
 
 # Configuración de la ventana
 root = tk.Tk()
@@ -26,7 +26,7 @@ root.title("Detector de objetos en imágenes")
 root.geometry("800x600")
 
 # Imagen de fondo
-bg_image = tk.PhotoImage(file="C:\\Users\\javie\\Desktop\\codigos\\ObjectRekognition\\Untitled.png")
+bg_image = tk.PhotoImage(file="C:\\Users\...background.png")
 bg_label = tk.Label(root, image=bg_image)
 bg_label.place(x=0, y=0)
 

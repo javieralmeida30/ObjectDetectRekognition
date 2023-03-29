@@ -7,7 +7,7 @@ from tkinter import filedialog
 
 # Credenciales de AWS
 
-with open('credentials.csv', 'r') as file:
+with open('credentials example.csv', 'r') as file:
     next(file)
     reader = csv.reader(file)
     for line in reader:

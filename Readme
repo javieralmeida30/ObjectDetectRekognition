@@ -1,0 +1,10 @@
+Object Recognition with AWS Rekognition in Python
+Project Overview
+This project utilizes AWS Rekognition to implement object recognition in images, featuring a simple graphical user interface (GUI) built with Tkinter. By leveraging the powerful machine learning models provided by AWS, this Python application can identify and tag objects within an image, making it suitable for a wide range of applications including security, retail, and educational tools.
+
+Features
+Image Upload: Users can upload images for object recognition through a user-friendly GUI.
+Object Detection: The application identifies objects within the images using AWS Rekognition.
+Labeling: Detected objects are labeled with accuracy scores.
+Simple UI: A straightforward GUI built with Tkinter for easy interaction.
+
